@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T02:56:30.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="68-htGhHBWn9RCZX5r1x" type="github"><diagram id="XJVKRfBGD7FaZZWY150G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-09T09:08:08.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1QJ8VK_3A8USoZJo1gHr" version="20.2.7" type="github">
+  <diagram id="XJVKRfBGD7FaZZWY150G" name="Page-1">
+    <mxGraphModel dx="782" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-1" value="tensor_ops_util" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-3" value="makeTensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-2" value="tensor2d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVT-6KOtRRU5fUL0rk5u-2" target="eVT-6KOtRRU5fUL0rk5u-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="430" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-5" value="engine.ts" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-6" value="makeTensor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-5">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eVT-6KOtRRU5fUL0rk5u-3" target="eVT-6KOtRRU5fUL0rk5u-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="190" as="sourcePoint" />
+            <mxPoint x="690" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-8" value="backend_webgl" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="920" y="35" width="400" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-9" value="write" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="eVT-6KOtRRU5fUL0rk5u-8" source="eVT-6KOtRRU5fUL0rk5u-16" target="eVT-6KOtRRU5fUL0rk5u-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint" />
+            <mxPoint x="230" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-16" value="set" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="170" y="60" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eVT-6KOtRRU5fUL0rk5u-8" source="eVT-6KOtRRU5fUL0rk5u-9" target="eVT-6KOtRRU5fUL0rk5u-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="110" as="sourcePoint" />
+            <mxPoint x="1160" y="113.04347826086962" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-18" value="runWebGLProgram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="10" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-19" value="makeTensorInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="170" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eVT-6KOtRRU5fUL0rk5u-8" source="eVT-6KOtRRU5fUL0rk5u-18" target="eVT-6KOtRRU5fUL0rk5u-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eVT-6KOtRRU5fUL0rk5u-8" source="eVT-6KOtRRU5fUL0rk5u-19" target="eVT-6KOtRRU5fUL0rk5u-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="175" as="sourcePoint" />
+            <mxPoint x="210" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-22" value="uploadToGPU&lt;br&gt;(DataId)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="20" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-23" value="this.texData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-8">
+          <mxGeometry x="240" y="35" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-24" value="Key: dataId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-23">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-25" value="Value: TextureData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-23">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eVT-6KOtRRU5fUL0rk5u-6" target="eVT-6KOtRRU5fUL0rk5u-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="250" as="sourcePoint" />
+            <mxPoint x="780" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-28" value="TextureData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-740" width="560" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-29" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-28">
+          <mxGeometry y="30" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVT-6KOtRRU5fUL0rk5u-32" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// Required.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;shape&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;[];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;dtype&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;DataType&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// Optional.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;values&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;backend_util&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;BackendValues&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;texture&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Texture&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// For complex numbers, the real and imaginary parts are stored as their own&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// individual tensorInfos, with a parent joining the two with the&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// complexTensors field. When this is defined, texture will be null.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;complexTensorInfos&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; {&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;real&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;TensorInfo&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;imag&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;TensorInfo&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;/** [rows, columns] shape of the texture. */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;texShape&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;usage&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;TextureUsage&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;isPacked&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;boolean&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;refCount&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// Available when the tensor has been sliced.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;slice&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// Offset in the &#39;flat index&#39; space.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;flatOffset&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7ca668;&quot;&gt;// Used for counting how many sliced tensors point to the same texture.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;origDataId&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;DataId&lt;/span&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="eVT-6KOtRRU5fUL0rk5u-28">
+          <mxGeometry y="60" width="560" height="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
